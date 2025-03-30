@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Українська мова на максимум!</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f9fa;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(90deg, #ff6a00, #ff4500);
+            color: white;
+            padding: 50px 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #ffcc00;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #ffdb4d;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        ul, ol {
+            text-align: left;
+            display: inline-block;
+        }
+        #register form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background: #ff6a00;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #ff4500;
+        }
+        .social {
+            margin-top: 20px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .illustration {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🔥 Українська мова на максимум! 🔥</h1>
+        <p>Говори, пиши, думай українською – легко та впевнено!</p>
+        <a href="#register" class="btn">Записатися</a>
+    </header>
+
+    <section id="about">
+        <h2>Що чекає на тебе?</h2>
+        <img src="illustration1.jpg" alt="Ілюстрація курсу" class="illustration">
+        <ul>
+            <li>🎯 Інтерактивні завдання та ігровий формат</li>
+            <li>📚 Легке пояснення правил без нудної теорії</li>
+            <li>💡 Живі вебінари та персональний зворотний зв’язок</li>
+            <li>🏆 Челленджі, батли та мотиваційні бонуси</li>
+        </ul>
+    </section>
+
+    <section id="program">
+        <h2>Програма курсу</h2>
+        <img src="illustration2.jpg" alt="Програма курсу" class="illustration">
+        <ol>
+            <li>📖 Лексика та суржик: як говорити чисто</li>
+            <li>🔡 Орфографія: пишемо без помилок</li>
+            <li>📢 Наголоси та фонетика</li>
+            <li>✍️ Пунктуація: коми, тире та інші знаки</li>
+            <li>🧠 Стилістика: як зробити мову багатшою</li>
+            <li>💬 Українська для соцмереж і роботи</li>
+        </ol>
+    </section>
+
+    <section id="bonuses">
+        <h2>🎁 Бонуси для учасників</h2>
+        <img src="illustration3.jpg" alt="Бонуси" class="illustration">
+        <p>✔️ Експрес-гід «Як писати без помилок»</p>
+        <p>✔️ ТОП-100 крутих українських слів</p>
+        <p>✔️ Доступ до
